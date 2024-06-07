@@ -647,7 +647,8 @@ wait()
 teleportTab:AddButton({
 	Name = "teleport to legend highway",
 	Callback = function()
-
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3687.31519, 72.2293015, 5598.83984, 0.128497094, -2.96294793e-08, -0.991709888, 5.94467124e-08, 1, -2.21745786e-08, 0.991709888, -5.61045219e-08, 0.128497094)
+wait()
       		print("button pressed")
   	end    
 })
